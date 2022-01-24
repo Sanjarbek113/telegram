@@ -15,6 +15,8 @@ justify-content: space-around;
 }
 .main{
     margin-top: 100px;
+    border: none;
+    
 }
 .main-img{
     width: 30px;
@@ -25,18 +27,16 @@ justify-content: space-around;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #17212B;
 }
 .m-left-list{
-    padding-bottom: 12px;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.graph{
-    margin-right: 4px;
-    margin-left: 4px;
-}
+
 
 .graph-img{
     width: 50px;
@@ -48,17 +48,19 @@ justify-content: space-around;
     align-items: center;
 }
 .graph-input{
-    border: 2px solid grey
+    border: 2px solid grey;
+    background-color: #17212B;
 }
 .graph-item{
     padding: 10px;
 }
 .box{
-    width: 600px;
+    width: 500px;
     height: 700px;
     background: dimgray;
     opacity: 0.7;
     text-align: center;
+    background-color: #17212B;
 }
 .box-title{
     position: relative;
@@ -78,7 +80,7 @@ justify-content: space-around;
 .m-right-list{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     
 }
@@ -100,12 +102,13 @@ justify-content: space-around;
 .graph-input{
     margin-left: 10px;
     margin-bottom: 10px;
+    height: 25px;
+    width: 200px;
+    padding: 10px;
+    margin-left: 22px;
+
 }
-.graph{
-    border:  2px solid grey;
-    padding-top: 10px;
-    padding-right: 25px;
-}
+
 .graph-list{
     border: 2px solid lightgrey;
     margin-left: 4px;
@@ -124,5 +127,114 @@ justify-content: space-around;
 .main-flex{
     border: 2px solid darkslateblue;
     height: fit-content;
+    background-color: #17212B;
+}
+.graph-list{
+    border: none;
+}
+.graph-input{
+    border: none;
+}
+.box{
+    background-color: #0E1621;
+}
+.graph{
+    background-color: #0E1621;
+}
+.graph{
+    padding-top: 20px;
+}
+.graph-text{
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+.graph-subtext{
+    color: dimgrey;
+    font-size: 15px;
+}
+.m-left-item{
+    color: dimgray;
+}
+.box-left{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #172128;
+}
+.box-img{
+    width: 33px;
+    padding-left: 15px;
+}
+.box-left-text{
+    color: lightblue;
+}
+.box-left-subtext{
+    color: grey;
+    font-size: 15px;
+}
+.box-image{
+    width: 20px;
+}
+.box-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #17212B;
+}
+.box-footer-list{
+    display: flex;
+
+}
+.box-footer-item{
+    padding: 5px;
+}
+.box-center{
+    height: 620px;
+}
+.box-footer-input{
+    border: none;
+    background-color: #17212B;
     padding: 10px;
+    height: 20px;
+
+}
+.m-right{
+    border: none;
+    padding-top: 10px;
+}
+.chart-center{
+    height: 285px;
+}
+.chart-img{
+    width: 18px;
+    
+    padding-bottom: 20px;
+    position: relative;
+    top: 10px;
+}
+.chart-footer{
+    height: 35px;
+    border: 1px solid darkslategrey;
+    width: 105%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top:38px;
+}
+
+.chart-hr{
+    position: relative;
+    top: -18px;
+    left: 2px;
+}
+.main-img{
+    width: 22px;
+    height: 22px;
+    margin-top: 12px;
+}
+body{
+    background-color: lightcyan;
 }
