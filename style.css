@@ -251,6 +251,7 @@ top: 310px;
 .border-active{
     padding-bottom: 0;
     border-bottom: 2px solid white;
+    transition: 0.7s;
 }
 .right-emoji{
     width: 0px;

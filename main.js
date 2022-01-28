@@ -48,3 +48,4 @@ emojies[2].addEventListener("click", e =>{
         key.classList.add("right-gif-active");
     }
 })
+
