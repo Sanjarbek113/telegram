@@ -268,3 +268,85 @@ top: 310px;
     width: 80px;
     padding-bottom: 20px;
 }
+.graph{
+    overflow-y: scroll;
+    height: 700px;
+
+    scroll-snap-align: 20px;
+}
+::-webkit-scrollbar{
+   width: 0px;
+}
+
+input{
+    color: whitesmoke;
+}
+.s-top{
+    background-color: rgb(43, 43, 190);
+    width: 330px;
+    padding: 10px 20px;
+}
+.s-top-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 13px;
+}
+
+.s-top-text{
+    color: lightblue;
+    margin-bottom: 5px;
+}
+
+.s-top-subtext{
+    color: lightgrey;
+}
+
+.s-img{
+    width: 35px;
+    margin-left: 10px;
+}
+.s-list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.s-text{
+    color: darkslategrey;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.s-btn{
+    padding: 5px;
+    border: none;
+    background-color: lightseagreen;
+}
+.s-center{
+    background-color: darkseagreen;
+    width: 330px;
+    padding: 10px;
+    height: 530px;
+}
+.settings{
+    position: fixed;
+    top: 130px;
+    left: 460px;
+   display: none;
+   transition: 20s;
+
+}
+.new{
+    display: block;
+    animation-name: settings;
+    animation-duration: 1s;
+}
+@keyframes settings {
+    from{
+        transform: translateY(-200px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
