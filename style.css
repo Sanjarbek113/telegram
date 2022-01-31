@@ -275,7 +275,7 @@ top: 310px;
     scroll-snap-align: 20px;
 }
 ::-webkit-scrollbar{
-   width: 0px;
+   display: none;
 }
 
 input{
